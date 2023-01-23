@@ -65,3 +65,35 @@ a{
     background: white;
     color: var(--dark-green-bg);
 }
+
+.hero{
+    height: 720px;
+    background-image: url("./src/img/hero.jpeg");
+    background-repeat: no-repeat;
+    background-position: 0 -80px;
+    text-align: center;
+    color: white;
+    padding: 160px 133px 90px 133px;
+}
+
+.hero__logo{
+    margin-bottom: 37px;
+}
+
+.hero__title{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 53px;
+    margin-bottom: 33px;
+}
+
+.hero__text{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    margin-bottom: 113px;
+}
