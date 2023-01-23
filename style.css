@@ -14,6 +14,9 @@ a{
 
 :root {
     --dark-green-bg: #52503B;
+    --ligth-bg: #FAF8F0;
+    --text-color: #333333;
+    --accsent-color: #E08631;
 }
 
 .container{
@@ -67,7 +70,6 @@ a{
 }
 
 .hero{
-    height: 720px;
     background-image: url("./src/img/hero.jpeg");
     background-repeat: no-repeat;
     background-position: 0 -80px;
@@ -97,3 +99,50 @@ a{
     text-transform: uppercase;
     margin-bottom: 113px;
 }
+
+.about{
+    background: var(--ligth-bg);
+    padding: 140px 320px;
+
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--text-color);
+
+}
+
+.about__text-container{
+    position: relative;
+    display: flex;
+    align-items: baseline;
+}
+
+.about__text-container:before{
+    content: '';
+    position: absolute;
+    top:-32px;
+    left: 48%;
+    width: 42px;
+    height: 8px;
+    background: var(--accsent-color);
+    transform: translateY(-48%);
+}
+
+.about__text-container div{
+    width: 50%;
+}
+
+.about__text-container div:not(:last-of-type){
+    margin-right: 40px;
+}
+
+.about__text-container div:last-of-type p{
+    margin-bottom: 40px;
+}
+
+.about__button{
+    color: white;
+    background: var(--dark-green-bg);
+}
+
