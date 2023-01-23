@@ -285,3 +285,122 @@ a{
     color: var(--text-color);
 }
 
+.review{
+    background: var(--ligth-bg);
+    padding: 138px 136px 150px 136px;
+    position: relative;
+}
+
+.review__text-container{
+    max-width: 600px;
+    text-align: center;
+    margin: 0 auto 30px auto;
+}
+
+.review__list{
+    display: flex;
+}
+
+.review__list-item{
+    background: white;
+    padding: 31px 43px 31px 31px;
+    color: var(--text-color);
+    border-radius: 4px;
+    border: 1px solid rgba(82, 80, 59, 0.1);
+}
+
+.review__list-item:not(:last-of-type){
+    margin-right: 20px;
+}
+
+.review__list-item svg{
+    margin-bottom: 10px;
+}
+
+.review__list-item h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 11px;
+}
+
+.review__list-item p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 19px;
+}
+
+.review__list-item > div{
+    position: relative;
+    padding-left: 10px;
+}
+
+.review__list-item > div:before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 20px;
+    width: 2px;
+    background: var(--accsent-color);
+}
+
+.preview2{
+    background: url("./src/img/preview2.jpeg") center no-repeat;
+    height: 600px;
+}
+
+.together{
+    display: flex;
+    padding: 100px 136px;
+    align-items: flex-end;
+}
+
+.together__text-container{
+    margin-right: 64px;
+    width: 50%;
+    position: relative;
+}
+
+.together__text-container:after{
+    content: '';
+    position: absolute;
+    top:-30px;
+    left: 0;
+    width: 42px;
+    height: 8px;
+    margin: auto;
+    background: var(--accsent-color);
+}
+
+
+.together__list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc((100% - 32px)/2);
+}
+
+.together__list > li:not(:last-of-type){
+    margin-right: 32px;
+}
+
+.together__list > li > ul > li{
+    display: flex;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: var(--text-color);
+}
+
+.together__list > li > ul > li:not(:last-of-type){
+    margin-bottom: 60px;
+}
+
+.together__list > li > ul > li > svg{
+    margin-right: 16px;
+}
