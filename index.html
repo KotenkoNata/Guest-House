@@ -9,422 +9,426 @@
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container">
-        <header class="header">
-            <div class="header__logo logo">
-                <svg width="128px" height="45px">
+<div class="container">
+    <header class="header">
+        <div class="header__logo logo">
+            <svg width="128px" height="45px">
+                <use href="./src/svg/symbol-defs.svg#logo"></use>
+            </svg>
+        </div>
+        <nav class="header__navigation-menu">
+            <ul>
+                <li>
+                    <a href="#">Start</a>
+                </li>
+                <li>
+                    <a href="#">Contact</a>
+                </li>
+                <li>
+                    <a href="#">Our history</a>
+                </li>
+            </ul>
+        </nav>
+        <button class="header__button button" type="button">Book now</button>
+    </header>
+    <main>
+        <section class="hero">
+            <div class="hero__logo logo">
+                <svg width="256px" height="90px">
                     <use href="./src/svg/symbol-defs.svg#logo"></use>
                 </svg>
             </div>
-            <nav class="header__navigation-menu">
-                <ul>
-                    <li>
-                        <a href="#">Start</a>
-                    </li>
-                    <li>
-                        <a href="#">Contact</a>
-                    </li>
-                    <li>
-                        <a href="#">Our history</a>
-                    </li>
-                </ul>
-            </nav>
-            <button class="header__button button" type="button">Book now</button>
-        </header>
-        <main>
-            <section class="hero">
-                <div class="hero__logo logo">
-                    <svg width="256px" height="90px">
-                        <use href="./src/svg/symbol-defs.svg#logo"></use>
-                    </svg>
-                </div>
-                <h1 class="hero__title">
-                    Experience the perfect combination of modern housing & natural scenery.
-                </h1>
-                <p class="hero__text">Located in Lofoten, norway</p>
+            <h1 class="hero__title">
+                Experience the perfect combination of modern housing & natural scenery.
+            </h1>
+            <p class="hero__text">Located in Lofoten, norway</p>
+            <div>
+                <svg width="60px" height="60px">
+                    <use href="./src/svg/symbol-defs.svg#click"></use>
+                </svg>
+            </div>
+        </section>
+        <section class="about section__accent">
+            <div class="about__text-container">
                 <div>
-                    <svg width="60px" height="60px">
-                        <use href="./src/svg/symbol-defs.svg#click"></use>
-                    </svg>
-                </div>
-            </section>
-            <section class="about section__accent">
-                <div class="about__text-container">
-                    <div>
-                        <p>
-                            The Guest House is the perfect weekend get-away housing.
-                            Located in the Norwegian archipelago, Lofoten, it's a great escape from the hustle and bustle of the city.
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Nullam scelerisque aliquam odio et faucibus.
-                            Nulla rhoncus feugiat eros quis consectetur.
-                            Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
-                        </p>
-                    </div>
-                    <div>
-                        <p>
-                            Below you'll find information about the accommodation and what's included in the price.
-                            Don't hesitate to reach out to us vi the contact page if you have any questions around your stay.
-                        </p>
-                        <button type="button" class="about__button button">Book now</button>
-                    </div>
-                </div>
-            </section>
-            <section class="advantage section__accent">
-                    <h2 class="advantage__title">
-                        The Guest House is the perfect weekend getaway cabin.
-                    </h2>
-            </section>
-            <section class="preview">
-            </section>
-            <section class="arrangements section__accent">
-                <div class="arrangements__text-container">
-                    <h3 class="arrangements__title title">Sleeping arrangements.</h3>
-                    <p class="arrangements__description description">
+                    <p>
+                        The Guest House is the perfect weekend get-away housing.
+                        Located in the Norwegian archipelago, Lofoten, it's a great escape from the hustle and bustle of
+                        the city.
                         Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                         Nullam scelerisque aliquam odio et faucibus.
                         Nulla rhoncus feugiat eros quis consectetur.
+                        Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
                     </p>
                 </div>
-                <ul class="arrangements__menu">
-                    <li>
-                        <svg width="64px" height="64px">
-                            <use href="./src/svg/symbol-defs.svg#bed"></use>
-                        </svg>
-                        <h4>Beds</h4>
-                        <p>
-                            The cabin is equipped with 12 beds, 4 of which are in bunk.
-                            The rent includes linens for all beds.
-                        </p>
-                    </li>
-                    <li>
-                        <svg width="64px" height="64px">
-                            <use href="./src/svg/symbol-defs.svg#bedroom"></use>
-                        </svg>
-                        <h4 class="">Bedrooms</h4>
-                        <p>
-                            Spread out over two floors, the cabin offers 4 bedrooms.
-                            Ranging from 2 to 4 beds per room.
-                        </p>
-                    </li>
-                    <li>
-                        <svg width="64px" height="64px">
-                            <use href="./src/svg/symbol-defs.svg#bathroom"></use>
-                        </svg>
-                        <h4 class="">Bathrooms</h4>
-                        <p>
-                            The cabin has three bathrooms, all equipped with showers and one with a bath tub,
-                        </p>
-                    </li>
-                </ul>
-            </section>
-            <section class="escape">
                 <div>
-                    <h3 class="escape__title title">The perfect escape.</h3>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam scelerisque aliquam odio et faucibus.
-                        Nulla rhoncus feugiat eros quis consectetur.
+                    <p>
+                        Below you'll find information about the accommodation and what's included in the price.
+                        Don't hesitate to reach out to us vi the contact page if you have any questions around your
+                        stay.
                     </p>
+                    <button type="button" class="about__button button">Book now</button>
                 </div>
-                <ul class="escape__list">
-                    <li>
-                        <ul>
-                            <li>
-                                <svg width="36px" height="36px">
-                                    <use href="./src/svg/symbol-defs.svg#kitchen"></use>
-                                </svg>
-                                <div>
-                                    <h4>Modern Kitchen Appliances.</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                                    </p>
-                                </div>
-
-                            </li>
-                            <li>
-                                <svg width="36px" height="36px">
-                                    <use href="./src/svg/symbol-defs.svg#outdoor"></use>
-                                </svg>
-                                <div>
-                                    <h4>Outdoor Paths.</h4>
-                                    <p>
-                                        Nulla rhoncus feugiat eros quis consectetur.
-                                    </p>
-                                </div>
-                            </li>
-                            <li>
-                                <svg width="36px" height="36px">
-                                    <use href="./src/svg/symbol-defs.svg#coffee"></use>
-                                </svg>
-                                <div>
-                                    <h4>Coffee Maker</h4>
-                                    <p>
-                                        Vestibulum sit amet urna turpis.
-                                        Mauris euismod elit et nisi ultrices.
-                                    </p>
-                                </div>
-                            </li>
-                            <li>
-                                <svg width="36px" height="36px">
-                                    <use href="./src/svg/symbol-defs.svg#nature"></use>
-                                </svg>
-                                <div>
-                                    <h4>Natural Scenery</h4>
-                                    <p>
-                                        Cras commodo consequat orci, in convallis risus egestas non.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>
-                                <svg width="36px" height="36px">
-                                    <use href="./src/svg/symbol-defs.svg#conditioner"></use>
-                                </svg>
-                                <div>
-                                    <h4>Air Conditioner</h4>
-                                    <p>
-                                        Nullam scelerisque aliquam odio et faucibus.
-                                    </p>
-                                </div>
-                            </li>
-                            <li>
-                                <svg width="36px" height="36px">
-                                    <use href="./src/svg/symbol-defs.svg#storage"></use>
-                                </svg>
-                                <div>
-                                    <h4>Storage Solutions</h4>
-                                    <p>
-                                        Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
-                                    </p>
-                                </div>
-                            </li>
-                            <li>
-                                <svg width="36px" height="36px">
-                                    <use href="./src/svg/symbol-defs.svg#shampaine"></use>
-                                </svg>
-                                <div>
-                                    <h4>Cutlery Selection</h4>
-                                    <p>
-                                        Duis tristique sed lorem a vestibulum.
-                                    </p>
-                                </div>
-                            </li>
-                            <li>
-                                <svg width="36px" height="36px">
-                                    <use href="./src/svg/symbol-defs.svg#takeaway"></use>
-                                </svg>
-                                <div>
-                                    <h4>Take-away Options</h4>
-                                    <p>
-                                        Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus quam.
-                                    </p>
-                                </div>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-            <section class="review section__accent">
-                <div class="review__text-container">
-                    <h2 class="review__title title">
-                        Past guests.
-                    </h2>
-                    <p class="description">
-                        Don't take our word for it! Have a look at what our previous guests say about their stay at the Guest House.
+            </div>
+        </section>
+        <section class="advantage section__accent">
+            <h2 class="advantage__title">
+                The Guest House is the perfect weekend getaway cabin.
+            </h2>
+        </section>
+        <section class="preview">
+        </section>
+        <section class="arrangements section__accent">
+            <div class="arrangements__text-container">
+                <h3 class="arrangements__title title">Sleeping arrangements.</h3>
+                <p class="arrangements__description description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam scelerisque aliquam odio et faucibus.
+                    Nulla rhoncus feugiat eros quis consectetur.
+                </p>
+            </div>
+            <ul class="arrangements__menu">
+                <li>
+                    <svg width="64px" height="64px">
+                        <use href="./src/svg/symbol-defs.svg#bed"></use>
+                    </svg>
+                    <h4>Beds</h4>
+                    <p>
+                        The cabin is equipped with 12 beds, 4 of which are in bunk.
+                        The rent includes linens for all beds.
                     </p>
-                </div>
-
-                <ul class="review__list">
-                    <li class="review__list-item">
-                        <svg height="20px">
-                            <use href="./src/svg/symbol-defs.svg#icon-stars"></use>
-                        </svg>
-                        <h4>We had an amazing stay at the Guest House!</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Suspendisse varius enim in eros elementum tristique.
-                            Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
-                            ut commodo diam libero vitae erat.
-                            Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
-                            Nunc ut sem vitae risus tristique posuere.
-                        </p>
-                        <div>
-                            <p>Nate Davidsson</p>
-                        </div>
-                    </li>
-                    <li class="review__list-item">
-                        <svg height="20px">
-                            <use href="./src/svg/symbol-defs.svg#icon-stars-1"></use>
-                        </svg>
-                        <h4>Beautiful little hideaway.</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                            Suspendisse varius enim in eros elementum tristique.
-                            Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
-                            ut commodo diam libero vitae erat.
-                            Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
-                            Nunc ut sem vitae risus tristique posuere.
-                        </p>
-                        <div>
-                            <p>Laura Paulie</p>
-                        </div>
-                    </li>
-                </ul>
-            </section>
-            <section class="preview2">
-            </section>
-            <section class="together">
-                <div class="together__text-container">
-                    <h3 class="together__title title">Come together.</h3>
-                    <p class="description">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Nullam scelerisque aliquam odio et faucibus.
+                </li>
+                <li>
+                    <svg width="64px" height="64px">
+                        <use href="./src/svg/symbol-defs.svg#bedroom"></use>
+                    </svg>
+                    <h4 class="">Bedrooms</h4>
+                    <p>
+                        Spread out over two floors, the cabin offers 4 bedrooms.
+                        Ranging from 2 to 4 beds per room.
                     </p>
-                </div>
-                <ul class="together__list">
-                    <li>
-                        <ul>
-                            <li>
-                                <svg width="36px" height="36px">
-                                    <use href="./src/svg/symbol-defs.svg#icon-wifi"></use>
-                                </svg>
+                </li>
+                <li>
+                    <svg width="64px" height="64px">
+                        <use href="./src/svg/symbol-defs.svg#bathroom"></use>
+                    </svg>
+                    <h4 class="">Bathrooms</h4>
+                    <p>
+                        The cabin has three bathrooms, all equipped with showers and one with a bath tub,
+                    </p>
+                </li>
+            </ul>
+        </section>
+        <section class="escape">
+            <div>
+                <h3 class="escape__title title">The perfect escape.</h3>
+                <p class="description">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Nullam scelerisque aliquam odio et faucibus.
+                    Nulla rhoncus feugiat eros quis consectetur.
+                </p>
+            </div>
+            <ul class="escape__list">
+                <li>
+                    <ul>
+                        <li>
+                            <svg width="36px" height="36px">
+                                <use href="./src/svg/symbol-defs.svg#kitchen"></use>
+                            </svg>
+                            <div>
+                                <h4>Modern Kitchen Appliances.</h4>
                                 <p>
                                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                                 </p>
-                            </li>
-                            <li>
-                                <svg width="36px" height="36px">
-                                    <use href="./src/svg/symbol-defs.svg#icon-service"></use>
-                                </svg>
+                            </div>
+
+                        </li>
+                        <li>
+                            <svg width="36px" height="36px">
+                                <use href="./src/svg/symbol-defs.svg#outdoor"></use>
+                            </svg>
+                            <div>
+                                <h4>Outdoor Paths.</h4>
                                 <p>
                                     Nulla rhoncus feugiat eros quis consectetur.
                                 </p>
-                            </li>
-                        </ul>
-                    </li>
-                    <li>
-                        <ul>
-                            <li>
-                                <svg width="36px" height="36px">
-                                    <use href="./src/svg/symbol-defs.svg#icon-bread"></use>
-                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            <svg width="36px" height="36px">
+                                <use href="./src/svg/symbol-defs.svg#coffee"></use>
+                            </svg>
+                            <div>
+                                <h4>Coffee Maker</h4>
+                                <p>
+                                    Vestibulum sit amet urna turpis.
+                                    Mauris euismod elit et nisi ultrices.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <svg width="36px" height="36px">
+                                <use href="./src/svg/symbol-defs.svg#nature"></use>
+                            </svg>
+                            <div>
+                                <h4>Natural Scenery</h4>
+                                <p>
+                                    Cras commodo consequat orci, in convallis risus egestas non.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>
+                            <svg width="36px" height="36px">
+                                <use href="./src/svg/symbol-defs.svg#conditioner"></use>
+                            </svg>
+                            <div>
+                                <h4>Air Conditioner</h4>
                                 <p>
                                     Nullam scelerisque aliquam odio et faucibus.
                                 </p>
-                            </li>
-                            <li>
-                                <svg width="36px" height="36px">
-                                    <use href="./src/svg/symbol-defs.svg#icon-spoon"></use>
-                                </svg>
+                            </div>
+                        </li>
+                        <li>
+                            <svg width="36px" height="36px">
+                                <use href="./src/svg/symbol-defs.svg#storage"></use>
+                            </svg>
+                            <div>
+                                <h4>Storage Solutions</h4>
                                 <p>
-                                    Morbi neque ex, condimentum.
+                                    Morbi neque ex, condimentum dapibus congue et, vulputate ut ligula.
                                 </p>
-                            </li>
-                        </ul>
-                    </li>
-                </ul>
-            </section>
-            <section class="book section__accent">
-                <h3 class="book__title title">
-                    We're already booked up for the spring — hurry up & secure your stay for the summer.
-                </h3>
+                            </div>
+                        </li>
+                        <li>
+                            <svg width="36px" height="36px">
+                                <use href="./src/svg/symbol-defs.svg#shampaine"></use>
+                            </svg>
+                            <div>
+                                <h4>Cutlery Selection</h4>
+                                <p>
+                                    Duis tristique sed lorem a vestibulum.
+                                </p>
+                            </div>
+                        </li>
+                        <li>
+                            <svg width="36px" height="36px">
+                                <use href="./src/svg/symbol-defs.svg#takeaway"></use>
+                            </svg>
+                            <div>
+                                <h4>Take-away Options</h4>
+                                <p>
+                                    Nulla efficitur auctor hendrerit. Etiam ut orci varius, faucibus libero ac, cursus
+                                    quam.
+                                </p>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="review section__accent">
+            <div class="review__text-container">
+                <h2 class="review__title title">
+                    Past guests.
+                </h2>
+                <p class="description">
+                    Don't take our word for it! Have a look at what our previous guests say about their stay at the
+                    Guest House.
+                </p>
+            </div>
+
+            <ul class="review__list">
+                <li class="review__list-item">
+                    <svg height="20px">
+                        <use href="./src/svg/symbol-defs.svg#icon-stars"></use>
+                    </svg>
+                    <h4>We had an amazing stay at the Guest House!</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.
+                        Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                        ut commodo diam libero vitae erat.
+                        Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
+                        Nunc ut sem vitae risus tristique posuere.
+                    </p>
+                    <div>
+                        <p>Nate Davidsson</p>
+                    </div>
+                </li>
+                <li class="review__list-item">
+                    <svg height="20px">
+                        <use href="./src/svg/symbol-defs.svg#icon-stars-1"></use>
+                    </svg>
+                    <h4>Beautiful little hideaway.</h4>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        Suspendisse varius enim in eros elementum tristique.
+                        Duis cursus, mi quis viverra ornare, eros dolor interdum nulla,
+                        ut commodo diam libero vitae erat.
+                        Aenean faucibus nibh et justo cursus id rutrum lorem imperdiet.
+                        Nunc ut sem vitae risus tristique posuere.
+                    </p>
+                    <div>
+                        <p>Laura Paulie</p>
+                    </div>
+                </li>
+            </ul>
+        </section>
+        <section class="preview2">
+        </section>
+        <section class="together">
+            <div class="together__text-container">
+                <h3 class="together__title title">Come together.</h3>
                 <p class="description">
                     Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                     Nullam scelerisque aliquam odio et faucibus.
                 </p>
-                <div class="book__btn-container">
-                    <button type="button" class="book__button button">Contact</button>
-                    <button type="button" class="book__button button">Book now</button>
-                </div>
-            </section>
-        </main>
-        <footer class="footer">
-            <div class="footer__flex-container">
-                <div class="footer__pages-container">
-                    <h4 class="footer__pages-title footer__title">Pages</h4>
-                    <ul>
-                        <li>
-                            <a href="#">
-                                Start
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Contact
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Our history
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Licenses
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Instructions
-                            </a>
-                        </li>
-                        <li>
-                            <a href="#">
-                                Style guide
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__social-container">
-                    <h4 class="footer__title">Social Media</h4>
-                    <ul>
-                        <li>
-                            <svg width="32px" height="32px">
-                                <use href="./src/svg/symbol-defs.svg#twitter"></use>
-                            </svg>
-                        </li>
-                        <li>
-                            <svg width="32px" height="32px">
-                                <use href="./src/svg/symbol-defs.svg#facebook"></use>
-                            </svg>
-                        </li>
-                        <li>
-                            <svg width="32px" height="32px">
-                                <use href="./src/svg/symbol-defs.svg#instagram"></use>
-                            </svg>
-                        </li>
-                    </ul>
-                </div>
-                <div class="footer__newsletter-container">
-                    <h4 class="footer__title">Newsletter</h4>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                        Suspendisse varius enim in eros elementum tristique.
-                    </p>
-                    <form class="footer__form">
-                        <input type="text" placeholder="Email">
-                        <input class="footer__form-submit button" type="submit" value="Submit">
-                    </form>
-                </div>
             </div>
-            <div class="footer__contact-container">
-                <div class="footer__logo logo">
-                    <svg width="200px" height="70px">
-                        <use href="./src/svg/symbol-defs.svg#logo"></use>
-                    </svg>
-                </div>
+            <ul class="together__list">
+                <li>
+                    <ul>
+                        <li>
+                            <svg width="36px" height="36px">
+                                <use href="./src/svg/symbol-defs.svg#icon-wifi"></use>
+                            </svg>
+                            <p>
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                            </p>
+                        </li>
+                        <li>
+                            <svg width="36px" height="36px">
+                                <use href="./src/svg/symbol-defs.svg#icon-service"></use>
+                            </svg>
+                            <p>
+                                Nulla rhoncus feugiat eros quis consectetur.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+                <li>
+                    <ul>
+                        <li>
+                            <svg width="36px" height="36px">
+                                <use href="./src/svg/symbol-defs.svg#icon-bread"></use>
+                            </svg>
+                            <p>
+                                Nullam scelerisque aliquam odio et faucibus.
+                            </p>
+                        </li>
+                        <li>
+                            <svg width="36px" height="36px">
+                                <use href="./src/svg/symbol-defs.svg#icon-spoon"></use>
+                            </svg>
+                            <p>
+                                Morbi neque ex, condimentum.
+                            </p>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section class="book section__accent">
+            <h3 class="book__title title">
+                We're already booked up for the spring — hurry up & secure your stay for the summer.
+            </h3>
+            <p class="description">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                Nullam scelerisque aliquam odio et faucibus.
+            </p>
+            <div class="book__btn-container">
+                <button type="button" class="book__button button">Contact</button>
+                <button type="button" class="book__button button">Book now</button>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="footer__flex-container">
+            <div class="footer__pages-container">
+                <h4 class="footer__pages-title footer__title">Pages</h4>
+                <ul>
+                    <li>
+                        <a href="#">
+                            Start
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Contact
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Our history
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Licenses
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Instructions
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Style guide
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__social-container">
+                <h4 class="footer__title">Social Media</h4>
+                <ul>
+                    <li>
+                        <svg width="32px" height="32px">
+                            <use href="./src/svg/symbol-defs.svg#twitter"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg width="32px" height="32px">
+                            <use href="./src/svg/symbol-defs.svg#facebook"></use>
+                        </svg>
+                    </li>
+                    <li>
+                        <svg width="32px" height="32px">
+                            <use href="./src/svg/symbol-defs.svg#instagram"></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__newsletter-container">
+                <h4 class="footer__title">Newsletter</h4>
                 <p>
-                    © Guest House, LLC. All rights reserved. Powered by Webflow
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                    Suspendisse varius enim in eros elementum tristique.
                 </p>
-                <a href="tel:+47 (0) 702 88 12 34">+47 (0) 702 88 12 34</a> -
-                <a href="mailto:example@webflow.io">example@webflow.io</a> -
-                <a href="#">Klubbvika 12, 8310 Kabelvag, Norway</a>
+                <form class="footer__form">
+                    <input type="text" placeholder="Email">
+                    <input class="footer__form-submit button" type="submit" value="Submit">
+                </form>
             </div>
+        </div>
+        <div class="footer__contact-container">
+            <div class="footer__logo logo">
+                <svg width="200px" height="70px">
+                    <use href="./src/svg/symbol-defs.svg#logo"></use>
+                </svg>
+            </div>
+            <p>
+                © Guest House, LLC. All rights reserved. Powered by Webflow
+            </p>
+            <a href="tel:+47 (0) 702 88 12 34">+47 (0) 702 88 12 34</a> -
+            <a href="mailto:example@webflow.io">example@webflow.io</a> -
+            <a href="#">Klubbvika 12, 8310 Kabelvag, Norway</a>
+        </div>
 
-        </footer>
-    </div>
+    </footer>
+</div>
 </body>
 </html>
